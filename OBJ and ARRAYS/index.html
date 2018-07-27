@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      //array
+      frutas = [ 'laranja','abacate','melancia']
+      console.log(frutas[0]);
+      //obj
+      pessoa = {
+        nome: ' Ricardo',
+        sobrenome:'Bernardi',
+        idade:32,
+        //metodos
+        andar:function(){
+          alert("andando");
+        }
+      }
+
+      console.log(pessoa.andar());
+      frutas[3]='pitangas';
+      frutas.push('uva');
+      console.log(frutas.length);
+      frutas.pop();
+      frutas.shift();
+      frutas.sort();
+      frutas.reverse();
+      console.log(frutas.toString());
+      console.log(frutas.join('/'));
+    </script>
+  </body>
+</html>
