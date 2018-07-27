@@ -1,7 +1,7 @@
 # Javascript 4 dumbs
 Another repository with bunch of files for learn javascript syntax
 
-##What you need
+## What you need
 
 There a list of things do you need for run these codes
 ```
@@ -11,10 +11,10 @@ There a list of things do you need for run these codes
 * Maybe a hand with fingers
 
 ```
-##Authors
+## Authors
 
 * **Yuri Dimitre**  - [Numb4r](https://github.com/Numb4r)
 
-##License
+## License
 You want to copy my work?
 Go ahead,I don't care
