@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      console.log(Date());
+      alert(Date());
+      //d = new Date(86400000);
+      //alert(d)
+      d = new Date();
+      console.log(d);
+      console.log(d.toUTCString());
+      console.log(d.toDateString());
+      console.log(d.getDate());
+      function formataData(data = new Date()) {
+        dia = data.getDate();
+        mes = data.getMonth()+1;
+        ano = data.getFullYear();
+        if(dia.toString().lenght==1) dia = '0'+dia;
+        if(mes.toString().lenght==1) dia = '0'+mes;
+        return dia+'/'+mes+'/'+ano;
+      }
+      console.log(formataData());
+    </script>
+  </body>
+</html>
