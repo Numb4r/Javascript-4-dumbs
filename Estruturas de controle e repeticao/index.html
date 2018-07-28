@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      n = 5
+      if(n>5){
+        console.log(">5");
+      }else {
+        console.log("<=5");
+      }
+      //=== igualdade de tipo e variavel
+      //operadores ternarios
+      idade = 16;
+      situacao = (idade>=18) ? 'Maioridade':'Menor';
+      diasemana = new Date().getDay();
+      switch (diasemana) {
+        case 6:
+          console.log('Sabado');
+          break;
+        case 0:
+          console.log('Domingo');
+          break;
+        default:
+          console.log('Dia normal');
+      }
+      linguagens = ['PHP','JAVA','C++','ASP']
+      for (var i = 0; i < linguagens.length; i++) {
+        console.log(linguagens[i]);
+      }
+      variavel = 10;
+      while (variavel != 0) {
+        console.log('1');
+        variavel --;
+      }
+
+    </script>
+  </body>
+</html>
